@@ -4,22 +4,22 @@ build:
   steps:    
     - script:
         name: restore
-        cwd:src/SimpleWebApp
+        cwd: src/SimpleWebApp
         code: |
           dotnet restore
     - script:
         name: build
-        cwd:src/SimpleWebApp
+        cwd: src/SimpleWebApp
         code: |
           dotnet build
     - script:
         name: publish
-        cwd:src/SimpleWebApp
+        cwd: src/SimpleWebApp
         code: |
           dotnet publish -o publish	 
     - script:
-       name:chmod
-       cwd:src/SimpleWebApp
+       name: chmod
+       cwd: src/SimpleWebApp
        code: |
           chmod +x ./docker_entrypoint.sh
 deploy:
@@ -31,5 +31,5 @@ deploy:
         repository: wzj7531/netcoreservices
         registry: https://registry.hub.docker.com
         entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
-        ports:"80"
-  env:"ASPNETCORE_URLS=http://+:80"
+        ports: "80"
+  env: "ASPNETCORE_URLS=http://+:80"

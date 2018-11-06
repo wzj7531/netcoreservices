@@ -7980,11 +7980,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/wzj7531/Documents/Asp.net core/SimpleWebApp/SimpleWebApp.csproj",
+      "projectUniqueName": "/home/wzj7531/Documents/netcoreservices/src/SimpleWebApp/SimpleWebApp.csproj",
       "projectName": "SimpleWebApp",
-      "projectPath": "/home/wzj7531/Documents/Asp.net core/SimpleWebApp/SimpleWebApp.csproj",
+      "projectPath": "/home/wzj7531/Documents/netcoreservices/src/SimpleWebApp/SimpleWebApp.csproj",
       "packagesPath": "/home/wzj7531/.nuget/packages/",
-      "outputPath": "/home/wzj7531/Documents/Asp.net core/SimpleWebApp/obj/",
+      "outputPath": "/home/wzj7531/Documents/netcoreservices/src/SimpleWebApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/home/wzj7531/dotnet/sdk/NuGetFallbackFolder"
